@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap');
+
+body{
+    background-color: #F6F7F5;
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    width: 500px;
+    height: 666px;
+}
+
+.nav-link{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    color: #3D6178;
+    border-radius: 0;
+}
+
+.nav-link.active{
+    color: #0D1B2A !important;
+    background-color: transparent !important;
+}
+
+.tab-pane{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #dee2e6;
+    border-top: none;
+    height: 500px;
+    background-color: #FBFBFA;
+    background-image:
+        linear-gradient(#E4E9EC 1px, transparent 1px),
+        linear-gradient(90deg, #E4E9EC 1px, transparent 1px);
+    background-size: 20px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #0D1B2A;
+}
+
+.tab-content .tab-pane.active{
+    display: flex;
+}
+
+.tab-content{
+    width: 100%;
+}
